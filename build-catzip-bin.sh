@@ -11,5 +11,4 @@ icepack catzip.asc catzip.bin
 
 icetime -d hx8k -c 40 catzip.asc
 
-yosys -ql 'synth_ice40 -blif catzip.blif -json catzip.json -top toplevel' toplevel.v
-icepack catzip.asc catzip.bin
+ 
